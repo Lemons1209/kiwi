@@ -1,0 +1,57 @@
+/*universal*/
+* {
+  font-family: 'Kiwi Maru', serif;
+  background: #d0e3a0;
+}
+
+img {
+  border: 25px solid #82a546;
+}
+figcaption {
+  font-size: 20px;
+  color: #120d0e;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #82a546;
+}
+
+/*Header and Nav*/
+header h1 {
+   font-size: 150px;
+   color: #384d0e;
+   text-align: center;
+   /* border: 1px solid black; /*For testing purposes*/
+   margin-top: auto;
+ }
+
+nav {
+  text-align: center;
+  /* border: 1px solid black; /*For testing purposes*/
+}
+
+ nav ul li {
+   display: inline;
+   font-size: 25px;
+ }
+
+ a {
+   color: #a48950;
+ }
+
+/* First sections*/
+#firstsection {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+
+/*second section*/
+#secondsection {
+  float: right;
+  width: 50%;
+  height: auto;
+}
