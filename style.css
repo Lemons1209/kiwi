@@ -1,11 +1,11 @@
 /*universal*/
 * {
   font-family: 'Kiwi Maru', serif;
-  background: #d0e3a0;
+  background: #E5E3C9;
 }
 
 img {
-  border: 25px solid #82a546;
+  border: 25px solid #789395;
 }
 figcaption {
   font-size: 20px;
@@ -15,43 +15,83 @@ figcaption {
 h2 {
   text-align: center;
   font-size: 50px;
-  color: #82a546;
+  color: #94B49F;
+  background-color: #B4CFB0;
 }
 
 /*Header and Nav*/
 header h1 {
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  background-color: #B4CFB0;
+  font-size: 150px;
+  color: #94B49F;
+  border: 5px double #94B49F;
+}
+
+header {
    font-size: 150px;
-   color: #384d0e;
+   color: #94B49F;
    text-align: center;
-   /* border: 1px solid black; /*For testing purposes*/
-   margin-top: auto;
+   margin: 20px;
+   padding: 10px;
+   width: 100%;
  }
 
 nav {
   text-align: center;
-  /* border: 1px solid black; /*For testing purposes*/
+  width: 100%;
+
 }
 
- nav ul li {
+ul {
+  border: 1px solid black; /*For testing purposes*/
+  background-color: #789395;
+}
+
+  ul li {
    display: inline;
    font-size: 25px;
+   margin: 20px;
+   padding: 10px;
+   border: 1px solid black; /*For testing purposes*/
+   background-color: #789395;
  }
 
  a {
-   color: #a48950;
+   color: #B4CFB0;
+   background-color: #789395;
  }
 
 /* First sections*/
 #firstsection {
   float: left;
-  width: 50%;
-  height: auto;
 }
 
+
+#firstsection, #secondsection {
+  width: 50%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+article, figure, figcaption {
+  background-color: #94B49F;
+}
+
+figcaption {
+  color: #B4CFB0;
+}
 
 /*second section*/
 #secondsection {
   float: right;
-  width: 50%;
-  height: auto;
 }
